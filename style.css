@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800);
+
+
+body {
+  margin: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1em;
+  color: white;
+  font-weight: 400;
+  font-style: none;
+}
+
+.container {
+	height: 100%;
+	margin-top: 50%;
+	text-align: center;
+	
+}
+
+a {
+	font-style: none;
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	font-style: none;
+	text-decoration: none;
+	color: #f57b1e;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1em;
+	text-align: left;
+	font-weight: 800;
+	
+}
+
+h2 {
+	font-size: 1em;
+	line-height: .5em;
+	text-align: left;
+}
+
+h3 {
+	font-size: 3em;
+	line-height: .5em;
+	text-align: left;
+	
+}
+
+.social {
+	text-align: left;
+	margin-left: 0px;
+	float: left;
+	opacity: .5;
+	-webkit-transition: all .5s;  				
+	   -moz-transition: all .5s;
+		 -o-transition: all .5s;
+       	   -transition: all .5s;
+}
+.social:hover {
+	opacity: .9;
+	-webkit-transition: all .5s;  				
+	   -moz-transition: all .5s;
+		 -o-transition: all .5s;
+       	   -transition: all .5s;
+}
+
+
+
+
+
+
+
+/*VIDEO CONTENT STYLING */
+
+#container {
+	background: rgba(255, 255, 255, 0.3);
+	padding: 10px;
+	width:610px;
+}
+
+/*
+h1 {
+  font-size: 72px;
+  line-height: 12px;
+  margin-left: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+*/
+
+pre {
+  border: 1px solid #ddd;
+  background: rgb(238,238,238);
+  background: rgba(238,238,238,0.5);
+  font-size: 12px;
+  padding: 5px 0 5px 10px;
+  display: inline-block;
+  width: 600px;
+}
+pre#license {
+  width: auto;
+  margin: 0;
+  padding: 10px;
+}
+pre#methods {
+  width: auto;
+  padding: 10px;
+}
+th {
+text-align:left;
+}
+pre a {
+  color: #00f;
+}
+/*
+p {
+  width: 100%;
+}
+*/
+header img {margin-top:10px;max-width:500px;height:50px;}
+/* h2{text-transform:uppercase;font-size:15px;letter-spacing:6px;margin-bottom:20px;margin-top:-10px;font-style:italic;font-family: Comic Sans MS, cursive;font-weight:100;-webkit-transform: rotate(-1deg);-moz-transform: rotate(-1deg); } */
+

@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+  <title>OKVideo Vimeo Test</title>
+  <link href="style.css" rel="stylesheet" media="screen">
+  <meta charset='utf-8'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js'></script>
+  <script src='src/okvideo.js'></script>
+  <script type="text/javascript">
+    $(function(){
+        $.okvideo({ source: '89561952',
+                    volume: 0,
+                    loop: true,
+                    hd:true,
+                    adproof: true,
+                    annotations: false,
+                    onFinished: function() { console.log('finished') },
+                    unstarted: function() { console.log('unstarted') },
+                    onReady: function() { console.log('onready') },
+                    onPlay: function() { console.log('onplay') },
+                    onPause: function() { console.log('pause') },
+                    buffering: function() { console.log('buffering') },
+                    cued: function() { console.log('cued') },
+                 });
+    });
+  </script>
+  <script type="text/javascript">var switchTo5x=true;</script>
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "5732677f-7983-4f18-b940-9c2a46696379", doNotHash: true, doNotCopy: false, hashAddressBar: false});</script>
+</head>
+<body>
+  <div class="container">
+
+  	<h3><a href="#">Let's Chat</a></h3>
+  	<h1><a href="#">check out our 2014 nominations!</a></h1>
+  	<h2><a href="#">View Past Award Winners</a></h2><br /><br />
+  	<div class="social">
+<span class='st_facebook_hcount' displayText='Facebook'></span>
+<span class='st_fblike_hcount' displayText='Facebook Like'></span>
+<span class='st_twitter_hcount' displayText='Tweet'></span>
+<span class='st_linkedin_hcount' displayText='LinkedIn'></span>
+</div>
+  	
+
+
+  </div>
+</body>
+</html>
